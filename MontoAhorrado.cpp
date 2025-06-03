@@ -2,6 +2,8 @@
 #include <iomanip>
 //Jesus monjaras moreno
 //30/05/2025
+//Octava  practica
+
 using namespace std;
 
 class Ahorro
@@ -11,7 +13,7 @@ public:
 	{
         // Datos iniciales
         double depositoMensual = 1000.0;
-        double tasaInteresMensual = 0.03; // 3% de interés mensual
+        double tasaInteresMensual = 0.03; // 3% de interÃ©s mensual
         int anios = 10;
         int totalMeses = anios * 12;
 
@@ -22,12 +24,12 @@ public:
         for (int mes = 1; mes <= totalMeses; ++mes) 
 		{
             montoAhorrado *= (1 + tasaInteresMensual); // intereses
-            montoAhorrado += depositoMensual; // depósito mensual
+            montoAhorrado += depositoMensual; // depÃ³sito mensual
         }
 
         // Mostrar el resultado final
         cout << fixed << setprecision(2);
-        cout << "Monto ahorrado después de " << anios << " años: $" << montoAhorrado << endl;
+        cout << "Monto ahorrado despuÃ©s de " << anios << " aÃ±os: $" << montoAhorrado << endl;
     }
 };
 
