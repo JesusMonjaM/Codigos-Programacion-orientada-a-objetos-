@@ -3,6 +3,7 @@
 #define PI 3.1416
 //Jesus Monjaras Moreno
 //15-05-2025
+//Primera practica
 
 class Circulo //circulo con clases  Practica 2 jesus monjaras moreno
  {
