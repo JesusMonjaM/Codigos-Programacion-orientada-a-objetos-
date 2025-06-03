@@ -1,7 +1,9 @@
 #include <iostream>
 #include <iomanip>
 //Jesus monjaras moreno
-//30/05/2025
+//29/05/2025
+//novena practica
+
 using namespace std;
 
 class Ahorro
@@ -11,7 +13,7 @@ public:
 	{
         // Datos iniciales solicitados
         double depositoMensual = 15000.0;
-        double tasaInteresMensual = 0.037; // 3.7% de interés 
+        double tasaInteresMensual = 0.037; // 3.7% de interÃ©s 
         int anios = 15;
         int totalMeses = anios * 12;
 
@@ -21,13 +23,13 @@ public:
         // Algoritmo mensual
         for (int mes = 1; mes <= totalMeses; ++mes) 
 		{
-            montoAhorrado *= (1 + tasaInteresMensual); // capitalización
-            montoAhorrado += depositoMensual; // depósito mensual
+            montoAhorrado *= (1 + tasaInteresMensual); // capitalizaciÃ³n
+            montoAhorrado += depositoMensual; // depÃ³sito mensual
         }
 
         // Mostrar el resultado 
         cout << fixed << setprecision(2);
-        cout << "Monto ahorrado después de " << anios << " años: $" << montoAhorrado << endl;
+        cout << "Monto ahorrado despuÃ©s de " << anios << " aÃ±os: $" << montoAhorrado << endl;
     }
 };
 int main()
