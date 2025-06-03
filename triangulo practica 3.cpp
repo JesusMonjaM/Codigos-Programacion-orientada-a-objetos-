@@ -2,8 +2,9 @@
 #include <cstdio>
 //Jesus Monjaras Moreno
 //22-05-2025
-
 // Función para calcular el área de un triángulo
+//tercera practica
+
 float calcularArea(float base, float altura) 
 {
     return (base * altura) / 2;
