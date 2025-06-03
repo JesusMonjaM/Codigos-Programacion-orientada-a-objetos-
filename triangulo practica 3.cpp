@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstdio>
+//Jesus Monjaras Moreno
+//22-05-2025
 
-// FunciÛn para calcular el ·rea de un tri·ngulo
+// Funci√≥n para calcular el √°rea de un tri√°ngulo
 float calcularArea(float base, float altura) 
 {
     return (base * altura) / 2;
