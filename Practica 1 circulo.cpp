@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdio>
 #define PI 3.1416
+//Jesus Monjaras Moreno
+//15-05-2025
 
 class Circulo //circulo con clases  Practica 2 jesus monjaras moreno
  {
@@ -12,7 +14,7 @@ private:
 public:
     void ejecutar() 
 	{
-        printf("¿Qué deseas calcular?\n");
+        printf("Â¿QuÃ© deseas calcular?\n");
         printf("1. Area\n");
         printf("2. Perimetro\n");
         printf("Ingresa tu opcion (1 o 2): ");
