@@ -4,7 +4,7 @@
 #include <string>
 //Jesus Monjaras Moreno
 //30-05-2025
-//quinto programa
+
 int main() 
 {
     std::ifstream archivo("HOLA A TODO MUNDO.txt");
