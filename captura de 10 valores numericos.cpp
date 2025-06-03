@@ -3,13 +3,15 @@
 
 //Jesus Monjaras Moreno
 //28/05/2025
+//septima  practica
+
 using namespace std;
 
 int main() 
 {
     int numeros[10];
 
-    //Pide 10 números
+    //Pide 10 nÃºmeros
     for (int i = 0; i < 10; i++)
 	 {
         cout << "Ingresa el numero: ";
@@ -31,7 +33,7 @@ int main()
         }
     }
 
-    //Muestra los números de manera ordenada
+    //Muestra los nÃºmeros de manera ordenada
     cout << "\nNumeros ordenados:\n";
     for (int i = 0; i < 10; i++) 
 	{
