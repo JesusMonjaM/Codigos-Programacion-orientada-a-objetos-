@@ -4,7 +4,7 @@
 
 //Jesus Monjaras Moreno
 //20-05-2025
-//quinto programa
+//quinta practica
 
 using namespace std;
 
@@ -28,8 +28,8 @@ public:
     void mostrarDatos()
 	 {
         printf("Nombre del deporte: %s\n", nombre.c_str());
-        printf("Número de jugadores: %d\n", jugadores);
-        printf("Tipo de balón: %s\n", tipoBalon.c_str());
+        printf("NÃºmero de jugadores: %d\n", jugadores);
+        printf("Tipo de balÃ³n: %s\n", tipoBalon.c_str());
         printf("Tipo de uniforme: %s\n", tipoUniforme.c_str());
     }
 };
@@ -48,10 +48,10 @@ public:
 
 int main() {
     DeporteConPies futbol;
-    futbol.setDatos("Fútbol", 11, "Balón redondo", "Camisa, short y tachones");
+    futbol.setDatos("FÃºtbol", 11, "BalÃ³n redondo", "Camisa, short y tachones");
 
     DeporteConManos voleibol;
-    voleibol.setDatos("Voleibol", 6, "Balón ligero", "Camisa, short y rodilleras");
+    voleibol.setDatos("Voleibol", 6, "BalÃ³n ligero", "Camisa, short y rodilleras");
 
     printf("DEPORTE CON LOS PIES\n");
     futbol.mostrarDatos();
