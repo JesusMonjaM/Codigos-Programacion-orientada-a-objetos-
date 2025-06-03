@@ -3,7 +3,7 @@
 #define PI 3.1416
 //Jesus Monjaras Moreno
 //23-05-2025
-//segundo programa
+//segunda practica
 
 int main() {
     float radio;
