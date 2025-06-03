@@ -4,7 +4,7 @@
 
 //Jesus Monjaras Moreno
 //15-05-2025
-//cuarto programa
+//cuarta practica
 
 using namespace std;
 
