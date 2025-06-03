@@ -3,7 +3,8 @@
 #define PI 3.1416
 //Jesus Monjaras Moreno
 //23-05-2025
-//quinto programa
+//segundo programa
+
 int main() {
     float radio;
     char medida[10];
