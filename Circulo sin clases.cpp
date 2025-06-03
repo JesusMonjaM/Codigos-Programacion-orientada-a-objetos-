@@ -1,13 +1,15 @@
 #include <iostream>
 #include <cstdio>
 #define PI 3.1416
-
+//Jesus Monjaras Moreno
+//23-05-2025
+//quinto programa
 int main() {
     float radio;
     char medida[10];
     int opcion;
 
-    printf("¿Qué deseas calcular?\n");
+    printf("Â¿QuÃ© deseas calcular?\n");
     printf("1. Area\n");
     printf("2. Perimetro\n");
     printf("Ingresa tu opcion (1 o 2): ");
