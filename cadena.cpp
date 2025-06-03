@@ -2,6 +2,8 @@
 #include <stdio.h>
 //Jesus Monjaras Moreno
 //26/05/2025
+//Sexta practica
+
 int Cadena(const char* cadena) 
 {
     char estado = '1';
